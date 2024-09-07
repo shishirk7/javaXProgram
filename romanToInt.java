@@ -16,6 +16,7 @@ public class romanToInt {
         romanInt.put('M',1000);
 
         int total=0;
+        
         int pre=0;
 
         for(int i=s.length()-1;i>=0;i--){

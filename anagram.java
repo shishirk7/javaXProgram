@@ -8,9 +8,14 @@ class Solution {
         }
         
         char[] g = s.toCharArray();
+
+       
+       
         char[] h= t.toCharArray();
+
         
         Arrays.sort(g);
+
         Arrays.sort(h);
         
        return Arrays.equals(g,h);
